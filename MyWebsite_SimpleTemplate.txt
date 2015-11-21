@@ -1,0 +1,43 @@
+<!-- This Source Code Form is subject to no terms -->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>My website</title>
+	<style>
+		body {
+		text-align: center;
+		background: url("http://i.imgur.com/8pjThW0.jpg");
+		background-size: cover;
+		background-position: center;
+		color: black;
+		font-family: helvetica;
+		}
+		p {
+		font-size: 22px;
+		}
+		input {
+		border: 0;
+		padding: 10px;
+		font-size: 18px;
+		}
+		input[type="submit"] {
+		background: brown;
+		color: white;
+		}
+		input[type="email"] {
+		color: brown;
+	</style>
+</head>
+
+<body>
+<!-- I could use a profile image using this code:
+<img src="http://i.imgur.com/3lYxz1I.jpg">
+-->
+<h1>Welcome to my personal website!</h1>
+<p>Share your email and get in touch:</p>
+<input type="email" placeholder="Your email">
+<input type="submit">
+</body>
+</html>
