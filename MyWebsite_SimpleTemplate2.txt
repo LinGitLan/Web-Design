@@ -1,4 +1,5 @@
 <!--This webpage is based on the tutorial/course provided by https://dash.generalassemb.ly/-->
+
 <!DOCTYPE html>
 
 <head>
@@ -24,25 +25,24 @@
       border: 7px solid orange;
       border-radius: 20px;
     }
-/*The links would be all a bit off-center if I wouldn't give it some padding in ul{}. This is due to default settings of lists' bullet points.*/
+/*The links would be all a bit off-center if I wouldn't give it some padding in ul{}. This is due to default settings of lists' bullet points. The padding values go like this: top, right, bottom, left.*/
     ul {
       padding: 10px;
       font-weight: bold;
       background: rgba(0, 0, 0, 0.5);
     }
-/*The display property in li{} makes the links all line up next to each other and unlike block property, it creates no line breaks and it doesn't take up the whole width of the page. The padding values go like this: top, right, bottom, left.*/
+/*The display property in li{} makes the links all line up next to each other and unlike block property, it creates no line breaks and it doesn't take up the whole width of the page.*/
     li{
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-/* Using "max-width" instead of "width" means the article elements can be smaller than 500px but not any larger - good for resizing the browser.*/
-/* Margin "0 auto" has 0 margin on the top and bottom, and "auto" margin on the left and right - this centers the content */
+/* Using "max-width" instead of "width" means the article elements can be smaller than 500px but not any larger - good for resizing the browser. Margin "0 auto" has 0 margin on the top and bottom, and "auto" margin on the left and right - this centers the content */
     article{
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
     }  
-/* A media queary, "@media", allows to set CSS styles that only activate when the browser is a certain width. It basically sets a condition and when that condition is true, the CSS inside the curly brackets gets acivated, e.g. the following makes the heading font smaller when the browser is small and the navigation links should sit on top of each other rather than inline.*/    
+/* A media query, "@media", allows to set CSS styles that only activate when the browser is a certain width. It basically sets a condition and when that condition is true, the CSS inside the curly brackets gets acivated, e.g. the following makes the heading font smaller when the browser is small and the navigation links should sit on top of each other rather than inline.*/  
     @media (max-width: 500px) {
       h1 {
         font-size: 40px;
@@ -86,7 +86,8 @@
 <script>$("button").on("click", function(){alert("A button was clicked!")})</script>
 </body>
 
-<!--The <link> tag lets me include CSS from an external file rather than keeping it all written out in my HTML file. The attribute href is a URL where the CSS file lives. The CSS file "normalize.css" makes browsers render all elements in line with modern standards no matter what browser I use so it's a good idea to include it in all my web projects. The rel attribute should always be set to "stylesheet".-->
+<!--ADDITIONAL COMMENTS-->
+<!--The <link> tag lets include CSS from an external file rather than keeping it all written out in a HTML file. However, this is just an example that doesn't work. The attribute href is a URL where the CSS file lives. The CSS file "normalize.css" makes browsers render all elements in line with modern standards no matter what browser I use so it's a good idea to include it in all the web projects. The rel attribute should always be set to "stylesheet".-->
 <!--The <header> tag is a container that holds other elements, kind of like <body>, but specifically for a website's header-->
 <!--The <ul> tag stands for unordered list and is used to make a navigation bar which basically is just a list of links, see <li> tags. The <a> tag is used to make a link to another page, <a> stands for anchor link and has an attribute href (hypertext reference) which controls the URL.-->
 <!--The <article> tag lets group together multiple HTML elements that form a single piece of content.-->
