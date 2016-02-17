@@ -1,4 +1,4 @@
-<!--This webpage is based on the tutorial/course provided by https://dash.generalassemb.ly/-->
+<!-- This webpage is based on the tutorial/course provided by https://dash.generalassemb.ly/ -->
 
 <!DOCTYPE html>
 
