@@ -36,13 +36,13 @@
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-/* Using "max-width" instead of "width" means the article elements can be smaller than 500px but not any larger - good for resizing the browser. Margin "0 auto" has 0 margin on the top and bottom, and "auto" margin on the left and right - this centers the content */
+/* Using "max-width" instead of "width" means the article elements can be smaller than 500px but not any larger - good for resizing the browser. Margin "0 auto" has 0 margin on the top and bottom, and "auto" margin on the left and right - this centres the content */
     article{
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
     }  
-/* A media query, "@media", allows to set CSS styles that only activate when the browser is a certain width. It basically sets a condition and when that condition is true, the CSS inside the curly brackets gets acivated, e.g. the following makes the heading font smaller when the browser is small and the navigation links should sit on top of each other rather than inline. */
+/* A media query, "@media", allows to set CSS styles that only activate when the browser is a certain width. It basically sets a condition and when that condition is true, the CSS inside the curly brackets gets activated, e.g. the following makes the heading font smaller when the browser is small and the navigation links should sit on top of each other rather than inline. */
     @media (max-width: 500px) {
       h1 {
         font-size: 40px;
