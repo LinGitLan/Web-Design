@@ -1,4 +1,4 @@
-<!--This webpage is based on the tutorial/course provided by https://dash.generalassemb.ly/-->
+<!-- This webpage is based on the tutorial/course provided by https://dash.generalassemb.ly/ -->
 
 <!DOCTYPE html>
 
@@ -86,9 +86,9 @@
 <script>$("button").on("click", function(){alert("A button was clicked!")})</script>
 </body>
 
-<!--ADDITIONAL COMMENTS-->
-<!--The <link> tag lets include CSS from an external file rather than keeping it all written out in a HTML file. However, this is just an example that doesn't work. The attribute href is a URL where the CSS file lives. The CSS file "normalize.css" makes browsers render all elements in line with modern standards no matter what browser I use so it's a good idea to include it in all the web projects. The rel attribute should always be set to "stylesheet".-->
-<!--The <header> tag is a container that holds other elements, kind of like <body>, but specifically for a website's header-->
-<!--The <ul> tag stands for unordered list and is used to make a navigation bar which basically is just a list of links, see <li> tags. The <a> tag is used to make a link to another page, <a> stands for anchor link and has an attribute href (hypertext reference) which controls the URL.-->
-<!--The <article> tag lets group together multiple HTML elements that form a single piece of content.-->
-<!--The <script> tag includes Javascript on the site. In this case, we use Javascript to listen for the click event on the button element, i.e. the click on the "Like" button, though it won't save any data yet - we'd need to program a back-end server (with frameworks like Ruby on Rails) to do that - but the button reacts when clicked. The code "$("button").on("click", function(){alert("clicked!")})" uses jQuery, a popular library of useful javascript code that, among other things, makes it easy to select elements and listen for events. The basic format of the code is "$(selector/element-in-question).on(event-type, thing-to-be-done)". The on() function sets up an event listener for the button element and takes two parameters/arguments: 1) type of event to listen to (click, hover, scroll, etc.) which must be in quotes as it is a string/text. 2) function containing the thing to be done when the event happens.-->
+<!-- ADDITIONAL COMMENTS -->
+<!-- The <link> tag lets include CSS from an external file rather than keeping it all written out in a HTML file. However, this is just an example that doesn't work. The attribute href is a URL where the CSS file lives. The CSS file "normalize.css" makes browsers render all elements in line with modern standards no matter what browser I use so it's a good idea to include it in all the web projects. The rel attribute should always be set to "stylesheet". -->
+<!-- The <header> tag is a container that holds other elements, kind of like <body>, but specifically for a website's header-->
+<!--The <ul> tag stands for unordered list and is used to make a navigation bar which basically is just a list of links, see <li> tags. The <a> tag is used to make a link to another page, <a> stands for anchor link and has an attribute href (hypertext reference) which controls the URL. -->
+<!-- The <article> tag lets group together multiple HTML elements that form a single piece of content. -->
+<!-- The <script> tag includes Javascript on the site. In this case, we use Javascript to listen for the click event on the button element, i.e. the click on the "Like" button, though it won't save any data yet - we'd need to program a back-end server (with frameworks like Ruby on Rails) to do that - but the button reacts when clicked. The code "$("button").on("click", function(){alert("clicked!")})" uses jQuery, a popular library of useful javascript code that, among other things, makes it easy to select elements and listen for events. The basic format of the code is "$(selector/element-in-question).on(event-type, thing-to-be-done)". The on() function sets up an event listener for the button element and takes two parameters/arguments: 1) type of event to listen to (click, hover, scroll, etc.) which must be in quotes as it is a string/text. 2) function containing the thing to be done when the event happens. -->
