@@ -11,11 +11,11 @@
       background: url("http://i.imgur.com/OXKV2We.jpg");
       background-size: cover;
     }
-/*To change a link's color, it's necessary to set it explicitly in a{}. Unlike headings and paragraphs, it won't inherit from its parents.*/
+/* To change a link's color, it's necessary to set it explicitly in a{}. Unlike headings and paragraphs, it won't inherit from its parents. */
     a {
       color: white;
     }
-/* Margin creates space on the outside of an element, padding on the inside*/
+/* Margin creates space on the outside of an element, padding on the inside */
     h1 {
       font-size: 70px;
       margin: 30px;
@@ -25,13 +25,13 @@
       border: 7px solid orange;
       border-radius: 20px;
     }
-/*The links would be all a bit off-center if I wouldn't give it some padding in ul{}. This is due to default settings of lists' bullet points. The padding values go like this: top, right, bottom, left.*/
+/* The links would be all a bit off-center if I wouldn't give it some padding in ul{}. This is due to default settings of lists' bullet points. The padding values go like this: top, right, bottom, left. */
     ul {
       padding: 10px;
       font-weight: bold;
       background: rgba(0, 0, 0, 0.5);
     }
-/*The display property in li{} makes the links all line up next to each other and unlike block property, it creates no line breaks and it doesn't take up the whole width of the page.*/
+/* The display property in li{} makes the links all line up next to each other and unlike block property, it creates no line breaks and it doesn't take up the whole width of the page. */
     li{
       display: inline;
       padding: 0px 10px 0px 10px;
@@ -42,7 +42,7 @@
       padding: 20px;
       margin: 0 auto;
     }  
-/* A media query, "@media", allows to set CSS styles that only activate when the browser is a certain width. It basically sets a condition and when that condition is true, the CSS inside the curly brackets gets acivated, e.g. the following makes the heading font smaller when the browser is small and the navigation links should sit on top of each other rather than inline.*/  
+/* A media query, "@media", allows to set CSS styles that only activate when the browser is a certain width. It basically sets a condition and when that condition is true, the CSS inside the curly brackets gets acivated, e.g. the following makes the heading font smaller when the browser is small and the navigation links should sit on top of each other rather than inline. */
     @media (max-width: 500px) {
       h1 {
         font-size: 40px;
